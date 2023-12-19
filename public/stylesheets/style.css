@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #dadada;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .container {
   background-color: white;
   width: 480px;
@@ -34,10 +36,18 @@ body {
 .header {
   font-size: 32px;
   font-weight: 700;
-  margin-top: 40px;
-  margin-bottom: 10px;
+  margin: 40px -40px 30px;
   line-height: .9;
 }
+.error{
+  font-weight: 500;
+  color: red;
+  height: 10px;
+  width: 50px;
+  text-transform: capitalize;
+  margin: 7px 0;
+}
+
 .detail {
   width: 100%;
   height: 48px;
@@ -119,6 +129,10 @@ h4 {
 }
 .ggl:hover{
   background-color: #a0a0a0;
+}
+
+footer{
+  padding-bottom: 30px;
 }
 
 footer p {

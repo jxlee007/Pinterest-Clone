@@ -27,17 +27,18 @@ body {
     /* gap: 10%; */
   }
 
-  .error{
-    font-weight: 500;
-    color: red;
-    text-transform: capitalize;
-    margin: 7px 0;
-  }
 
   .grid-container {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+  }
+
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: start;
   }
   
   .column {

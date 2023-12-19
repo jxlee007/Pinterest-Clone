@@ -1,9 +1,12 @@
 const mongoose = require('mongoose');
 
 const postSchema = new mongoose.Schema({
-  postText: {
+  imageText: {
     type: String,
     required: true,
+  },
+  image:{
+    type: String,
   },
 //   make sense in future using array,def=[] instead of number,def=0
 // In likes we will save user IDs in array To know that which user has liked that post

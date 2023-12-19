@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const plm = require('passport-local-mongoose');
 
 // setup connection
-mongoose.connect('mongodb://127.0.0.1:27017/associate-D')
+mongoose.connect('mongodb://127.0.0.1:27017/Pin-Interest')
 
 // make userSchema for  userModels 
 const userSchema = new mongoose.Schema({
