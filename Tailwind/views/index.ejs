@@ -1,0 +1,32 @@
+<%- include('./partials/anim.ejs') %>
+
+<div class="container">
+  <div class="w-full h-screen flex items-center justify-center ">
+    <div class="w-[25vw] bg-white px-20 py-10 rounded-[30px]">
+        <h1 class="mb-10 text-3xl text-center tracking-tight capitalize font-bold leading-none">Create New Account</h1>
+        <form action="/register" method="post" >
+            <label class="font-bold"  for="username">Username</label>
+            <input class="block border-[3px] rounded-[10px] mb-4 w-full px-3 py-3" type="text" name="username" placeholder="Username">
+            <label class="font-bold"  for="fullname">Full name</label>
+            <input class="block border-[3px] rounded-[10px] mb-4 w-full px-3 py-3" type="text" name="fullname" placeholder="Full name">
+            <label class="font-bold"  for="email">Email</label>
+            <input class="block border-[3px] rounded-[10px] mb-4 w-full px-3 py-3" type="email" name="email" placeholder="Email Address">
+            <label class="font-bold"  for="contact">Contact</label>
+            <input class="block border-[3px] rounded-[10px] mb-4 w-full px-3 py-3" type="number" name="contact" placeholder="Contact">
+            
+            <label class="font-bold"  for="password">Password</label>
+            <input class="block border-[3px] rounded-[10px] mb-4 w-full px-3 py-3" type="password" name="password" placeholder="password">
+            <a class="mt-2 font-bold inline-block" href="#">Forgot Password?</a>
+            <input class="block border-[3px] rounded-[10px] mt-2 w-full px-3 py-2 bg-red-600 text-white rounded-full" type="submit" value="Create New Account">
+  
+            <p class="text-xs font-semibold mt-5 text-center w-3/4 mx-auto">By continuing, you agree to Pinterest's Terms of Service and acknowledge you've read our Privacy Policy. Notice at collection.</p>
+        </form>
+  
+        <a class="inline-block w-full mt-7 text-center text-m font-semibold text-zinc-700" href="/login">Already on Pinterest? <strong>Sign In</strong></a>
+  
+    </div>
+  </div>
+  
+</div>
+
+<%- include('./partials/footer.ejs') %>

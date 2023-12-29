@@ -1,0 +1,37 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            gap: 5px;
+            background: #000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        marquee {
+            background: transparent;
+            height: 100%;
+
+        }
+
+        .strip {
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+
+        img {
+            border-radius: 10px;
+        }
